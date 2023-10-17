@@ -1,0 +1,41 @@
+html{
+    font-size: 62.5%;
+}
+body {
+    margin:0;
+    padding: 0;
+    color:#666;
+    font-size:1.6rem;
+    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+#header{
+    padding: 10px 0px;
+}
+#header div.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mainMenu{
+    display: flex;
+    justify-content: flex-end;
+}
+.mainMenu li{
+    font-size: 25px;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.mainMenu a{
+    padding: 5px 10px;
+    text-decoration: none;
+}
